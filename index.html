@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 class="title">Bài Tập JS Buổi 7-8</h1>
+    <div class="container">
+      <div id="accordion">
+        <div class="row">
+          <div class="col-12">
+            <div class="form-group">
+              <div class="row">
+                <div class="col-10">
+                  <input
+                    type="text"
+                    id="txt_nhapArray"
+                    class="form-control"
+                    placeholder="nhập mảng"
+                  />
+                </div>
+                <div class="col-2">
+                  <button id="btn_xuatArray" class="btn btn-dark">
+                    Xuất Mảng
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="js_1" class="card">
+              <div class="card-header">
+                <a
+                  class="card-link text-light"
+                  data-toggle="collapse"
+                  href="#collapseOne"
+                >
+                  Bài Tập JS Số 1
+                </a>
+              </div>
+              <div id="collapseOne" class="collapse" data-parent="#accordion">
+                <div class="card" style="background-color: red">
+                  <img
+                    class="card-img-top"
+                    src="./img/screenshot_1.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <button id="btn_total" class="btn btn-dark">
+                      Tính Tổng Số Dương
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="js_2" class="card">
+              <div class="card-header">
+                <a
+                  class="card-link text-light"
+                  data-toggle="collapse"
+                  href="#collapseTwo"
+                >
+                  Bài Tập JS Số 2
+                </a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card" style="background-color: green">
+                  <img
+                    class="card-img-top"
+                    src="./img/screenshot_2.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <button id="btn_check" class="btn btn-dark">
+                      Đếm Số Dương
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="js_3" class="card">
+              <div class="card-header">
+                <a
+                  class="card-link text-light"
+                  data-toggle="collapse"
+                  href="#collapseThree"
+                >
+                  Bài Tập JS Số 3
+                </a>
+              </div>
+              <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card" style="background-color: blue">
+                  <img
+                    class="card-img-top"
+                    src="./img/screenshot_3.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <button id="btn_min" class="btn btn-dark">
+                      Tìm Số Nhỏ Nhất
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="js_4" class="card">
+              <div class="card-header">
+                <a
+                  class="card-link text-light"
+                  data-toggle="collapse"
+                  href="#collapseFour"
+                >
+                  Bài Tập JS Số 4
+                </a>
+              </div>
+              <div id="collapseFour" class="collapse" data-parent="#accordion">
+                <div class="card" style="background-color: orange">
+                  <img
+                    class="card-img-top"
+                    src="./img/screenshot_4.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <button id="btn_minDuong" class="btn btn-dark">
+                      Tìm Số Dương Nhỏ Nhất
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="js_5" class="card">
+              <div class="card-header">
+                <a
+                  class="card-link text-light"
+                  data-toggle="collapse"
+                  href="#collapseFive"
+                >
+                  Bài Tập JS Số 5
+                </a>
+              </div>
+              <div id="collapseFive" class="collapse" data-parent="#accordion">
+                <div class="card" style="background-color: aqua">
+                  <img
+                    class="card-img-top"
+                    src="./img/screenshot_5.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <button id="btn_lastChan" class="btn btn-dark">
+                      Tìm Số Chẵn Cuối Cùng
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="js_6" class="card">
+              <div class="card-header">
+                <a
+                  class="card-link text-light"
+                  data-toggle="collapse"
+                  href="#collapseSix"
+                >
+                  Bài Tập JS Số 6
+                </a>
+              </div>
+              <div id="collapseSix" class="collapse" data-parent="#accordion">
+                <div class="card" style="background-color: sienna">
+                  <img
+                    class="card-img-top"
+                    src="./img/screenshot_6.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-8">
+                        <div class="form-group">
+                          <div class="row">
+                            <div class="col-6">
+                              <input
+                                type="text"
+                                id="txtViTri1"
+                                class="form-control"
+                                placeholder="số thứ nhất"
+                              />
+                            </div>
+                            <div class="col-6">
+                              <input
+                                type="text"
+                                id="txtViTri2"
+                                class="form-control"
+                                placeholder="số thứ hai"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <button id="btn_swap" class="btn btn-dark">
+                          Đổi Chỗ 2 GT
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="js_7" class="card">
+              <div class="card-header">
+                <a
+                  class="card-link text-light"
+                  data-toggle="collapse"
+                  href="#collapseSeven"
+                >
+                  Bài Tập JS Số 7
+                </a>
+              </div>
+              <div id="collapseSeven" class="collapse" data-parent="#accordion">
+                <div class="card" style="background-color: gold">
+                  <img
+                    class="card-img-top"
+                    src="./img/screenshot_7.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <button id="btn_sort" class="btn btn-dark">
+                      Sắp Xếp Tăng Dần
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="js_8" class="card">
+              <div class="card-header">
+                <a
+                  class="card-link text-light"
+                  data-toggle="collapse"
+                  href="#collapseEight"
+                >
+                  Bài Tập JS Số 8
+                </a>
+              </div>
+              <div id="collapseEight" class="collapse" data-parent="#accordion">
+                <div class="card" style="background-color: navy">
+                  <img
+                    class="card-img-top"
+                    src="./img/screenshot_8.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <button id="btn_firstNT" class="btn btn-dark">
+                      Tìm Số Nguyên Tố Đầu Tiên
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="js_9" class="card">
+              <div class="card-header">
+                <a
+                  class="card-link text-light"
+                  data-toggle="collapse"
+                  href="#collapseNine"
+                >
+                  Bài Tập JS Số 9
+                </a>
+              </div>
+              <div id="collapseNine" class="collapse" data-parent="#accordion">
+                <div class="card" style="background-color: teal">
+                  <img
+                    class="card-img-top"
+                    src="./img/screenshot_9.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <div class="form-group">
+                      <input type="text" id="txt_addNum" class="form-control" placeholder="mảng số thực">
+                    </div>
+                    <button id="btn_Add" class="btn btn-dark">Thêm Số</button>
+                    <button id="btn_Search" class="btn btn-light">
+                      Tìm Số
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div id="js_10" class="card">
+              <div class="card-header">
+                <a
+                  class="card-link text-light"
+                  data-toggle="collapse"
+                  href="#collapseTen"
+                >
+                  Bài Tập JS Số 10
+                </a>
+              </div>
+              <div id="collapseTen" class="collapse" data-parent="#accordion">
+                <div class="card" style="background-color: salmon">
+                  <img
+                    class="card-img-top"
+                    src="./img/screenshot_10.png"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <button id="btn_soSanh" class="btn btn-dark">So Sánh Số Âm Và Dương</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="print_notifi">
+              <div id="notifi_array"></div>
+              <div id="notifi_array_BT9" style="display: none"></div>
+              <div id="notifi_question"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/Array.js"></script>
+    <script src="./js/BT_1.js"></script>
+    <script src="./js/BT_2.js"></script>
+    <script src="./js/BT_3.js"></script>
+    <script src="./js/BT_4.js"></script>
+    <script src="./js/BT_5.js"></script>
+    <script src="./js/BT_6.js"></script>
+    <script src="./js/BT_7.js"></script>
+    <script src="./js/BT_8.js"></script>
+    <script src="./js/BT_9.js"></script>
+    <script src="./js/BT_10.js"></script>
+  </body>
+</html>

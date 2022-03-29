@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.title{
+  width: 26%;
+  height: 50px;
+  color: white;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example {
+  0%   {background-color:red; left:0px;}
+  25% {background-color:blue; left:250px;}
+  50% {background-color:green; left:500px;}
+  75% {background-color:yellow; left:750px;}
+  100% {background-color:black; left:1000px;}
+}
+
+#js_1 {
+  background-color: red;
+}
+#js_2 {
+  background-color: green;
+}
+#js_3 {
+  background-color: blue;
+}
+#js_4 {
+  background-color: orange;
+}
+#js_5 {
+  background-color: aqua;
+}
+#js_6 {
+  background-color: sienna;
+}
+#js_7 {
+  background-color: gold;
+}
+#js_8 {
+  background-color: navy;
+}
+#js_9 {
+  background-color: teal;
+}
+#js_10 {
+  background-color: salmon;
+}
+.print_notifi{
+  background-color: white;
+  border: 5px dashed black;
+  height: 100px;
+  margin-top: 50px;
+}
