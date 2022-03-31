@@ -47,6 +47,7 @@ document.getElementById("btn_firstNT").addEventListener("click", function () {
   for (var i = 1; i < listNumber.length; i++) {
     if (kiemTraSNT(listNumber[i])) {
       soNT = listNumber[i];
+      break;
     }
   }
   var hienTBSNT = "Số nguyên tố ở vị trí đầu tiên là: " + soNT;

@@ -20,6 +20,7 @@
     for (var i = 1; i < listNumber.length; i++) {
         if (listNumber[i] % 2 === 0) {
             soChan = listNumber[i];
+            break;
         }
     }
     var hienTBSoChan = "Số chẵn ở vị trí cuối cùng là: " + soChan;
